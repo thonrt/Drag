@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drag</title>
+
+
+    <style type="text/css">
+        .container {
+            width: 800px;
+            height: 800px;
+            border: 1px solid pink;
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        
+        .draged_holder {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            position: absolute;
+        }
+    </style>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="draged_holder" draggable="true"></div>
+    </div>
+    <script type="text/javascript" src="../build/bunble.js"></script>
+</body>
+
+</html>
